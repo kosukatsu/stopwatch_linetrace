@@ -1,0 +1,24 @@
+camera_id: 1
+
+send_message: True
+
+web_hook_url: "<web-hook-url>"
+
+show_rescale_ratio: 1.0
+
+ignore_tiny_rap: True
+
+threthold:
+  binary: 100
+  start_line: 10
+  invalid_result: 3.0
+
+debug: False
+
+debug_params:
+  video_path: ./video.mp4
+  back_path: ./back.png
+
+key_params:
+  capture_background: b
+  set_start: s
